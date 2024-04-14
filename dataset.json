@@ -1,0 +1,195 @@
+[
+    {
+        "id": "Q1",
+        "question": "Explain the central limit theorem and give examples of when you can use it in a real-world problem.",
+        "answers": [
+            "The center limit theorem states that if any random variable, regardless of the distribution, is sampled a large enough time, the sample mean will be approximately normally distributed. This allows for studying the properties of any statistical distribution as long as there is a large enough sample size."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "Briefly explain the A/B testing and its application? What are some common pitfalls encountered in A/B testing?",
+        "answers": [
+            "/B testing helps us to determine whether a change in something will cause a change in performance significantly or not. So in other words you aim to statistically estimate the impact of a given change within your digital product (for example). You measure success and counter metrics on at least 1 treatment vs 1 control group (there can be more than 1 XP group for multivariate tests)."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "Describe briefly the hypothesis testing and p-value in layman’s term? And give a practical application for them ?",
+        "answers": [
+            "Hypothesis test is where you have a current state (null hypothesis) and an alternative state (alternative hypothesis). You assess the results of both of the states and see some differences. You want to decide whether the difference is due to the alternative approach or not."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the meaning of selection bias and how to avoid it?",
+        "answers": [
+            "Sampling bias is the phenomenon that occurs when a research study design fails to collect a representative sample of a target population. This typically occurs because the selection criteria for respondents failed to capture a wide enough sampling frame to represent all viewpoints."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q6",
+        "question": "Explain the long-tailed distribution and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?",
+        "answers": [
+            "A long-tailed distribution is a type of heavy-tailed distribution that has a tail (or tails) that drop off gradually and asymptotically."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q7",
+        "question": "What is the meaning of KPI in statistics",
+        "answers": [
+            "KPI stands for key performance indicator, a quantifiable measure of performance over time for a specific objective. KPIs provide targets for teams to shoot for, milestones to gauge progress, and insights that help people across the organization make better decisions. From finance and HR to marketing and sales, key performance indicators help every area of the business move forward at the strategic level. Types of KPIs Key performance indicators come in many flavors. While some are used to measure monthly progress against a goal, others have a longer-term focus. The one thing all KPIs have in common is that they’re tied to strategic goals. Here’s an overview of some of the most common types of KPIs."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q8",
+        "question": "Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not?",
+        "answers": [
+            "The null hypothesis is that the coin is fair, and the alternative hypothesis is that the coin is biased. The p-value is the probability of observing the results obtained given that the null hypothesis is true, in this case, the coin is fair."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q9",
+        "question": "Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not?",
+        "answers": [
+            "The main consideration when we have a large number of tests is that probability of getting a significant test due to chance alone increases. This will increase the type 1 error (rejecting the null hypothesis when it's actually true. Therefore we need to consider the Bonferroni Effect which happens when we make many tests. Ex. If our significance level is 0.05 but we made a 100 test it means that the probability of getting a value inside the rejection rejoin is 0.0005, not 0.05 so here we need to use another significance level which's called alpha star = significance level /K Where K is the number of the tests"
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q10",
+        "question": "What general conditions must be satisfied for the central limit theorem to hold?",
+        "answers": [
+            "In order to apply the central limit theorem, there are four conditions that must be met: 1.** Randomization:** The data must be sampled randomly such that every member in a population has an equal probability of being selected to be in the sample. Independence: The sample values must be independent of each other. The 10% Condition: When the sample is drawn without replacement, the sample size should be no larger than 10% of the population. Large Sample Condition: The sample size needs to be sufficiently large."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q11",
+        "question": "What is skewness discuss two methods to measure it?",
+        "answers": [
+            "Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or to the right, it is said to be skewed.Skewness can be quantified as a representation of the extent to which a given distribution varies from a normal distribution. There are two main types of skewness negative skew which refers to a longer or fatter tail on the left side of the distribution, while positive skew refers to a longer or fatter tail on the right. These two skews refer to the direction or weight of the distribution."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q12",
+        "question": "You sample from a uniform distribution [0, d] n times. What is your best estimate of d?",
+        "answers": [
+            "Intuitively it is the maximum of the sample points."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q13",
+        "question": "Discuss the Chi-square, ANOVA, and t-test",
+        "answers": [
+            "Chi-square test A statistical method is used to find the difference or correlation between the observed and expected categorical variables in the dataset."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q14",
+        "question": "What is the relationship between the significance level and the confidence level in Statistics?",
+        "answers": [
+            "Confidence level = 1 - significance level. It's closely related to hypothesis testing and confidence intervals. Significance Level according to the hypothesis testing literature means the probability of Type-I error one is willing to tolerate. Confidence Level according to the confidence interval literature means the probability in terms of the true parameter value lying inside the confidence interval. They are usually written in percentages."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q15",
+        "question": "What is the Law of Large Numbers in statistics and how it can be used in data science ?",
+        "answers": [
+            "The law of large numbers states that as the number of trials in a random experiment increases, the average of the results obtained from the experiment approaches the expected value. In statistics, it's used to describe the relationship between sample size and the accuracy of statistical estimates. In data science, the law of large numbers is used to understand the behavior of random variables over many trials. It's often applied in areas such as predictive modeling, risk assessment, and quality control to ensure that data-driven decisions are based on a robust and accurate representation of the underlying patterns in the data. The law of large numbers helps to guarantee that the average of the results from a large number of independent and identically distributed trials will converge to the expected value, providing a foundation for statistical inference and hypothesis testing."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q16",
+        "question": "What is the difference between a confidence interval and a prediction interval, and how do you calculate them?",
+        "answers": [
+            "A confidence interval is a range of values that is likely to contain the true value of a population parameter with a certain level of confidence. It is used to estimate the precision or accuracy of a sample statistic, such as a mean or a proportion, based on a sample from a larger population."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    },
+    {
+        "id": "Q17",
+        "question": "What is the difference between a confidence interval and a prediction interval, and how do you calculate them?",
+        "answers": [
+            "A confidence interval is a range of values that is likely to contain the true value of a population parameter with a certain level of confidence. It is used to estimate the precision or accuracy of a sample statistic, such as a mean or a proportion, based on a sample from a larger population."
+        ],
+        "tags": [
+            "statistics",
+            "data science",
+            "interview"
+        ]
+    }
+
+]
