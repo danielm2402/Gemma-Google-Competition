@@ -3,7 +3,7 @@
         "id": "Q1",
         "question": "Explain the central limit theorem and give examples of when you can use it in a real-world problem.",
         "answer": [
-            "The center limit theorem states that if any random variable, regardless of the distribution, is sampled a large enough time, the sample mean will be approximately normally distributed. This allows for studying the properties of any statistical distribution as long as there is a large enough sample size.",
+            "The center limit theorem states that if any random variable, regardless of the distribution, is sampled a large enough time, the sample mean will be approximately normally distributed. This allows for studying the properties of any statistical distribution as long as there is a large enough sample size."
         ],
         "tags": [
             "statistics",
